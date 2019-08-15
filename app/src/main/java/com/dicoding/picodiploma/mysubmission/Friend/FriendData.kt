@@ -1,53 +1,59 @@
 package com.dicoding.picodiploma.mysubmission.Friend
 
+import com.dicoding.picodiploma.mysubmission.R.drawable
+
 object FriendData {
     private val data = arrayOf(
         arrayOf(
             "Adi Rahmat Fatchi",
-            "Adi"
+            "Adi",
+            drawable.photo1
         ),
         arrayOf(
             "Ajeng Santika Putri",
-            "Ajeng"
+            "Ajeng",
+            drawable.photo2
+
         ),
         arrayOf(
             "Anggarini Walyanu Arianti",
-            "Rini"
+            "Rini",
+            drawable.photo3
         ),
         arrayOf(
             "Annissa Hafidzhatul Insan",
-            "Sasa"
+            "Sasa",
+            drawable.photo4
         ),
         arrayOf(
             "Ardian Reza Maliki",
-            "Ecak"
+            "Ecak",
+            drawable.photo5
         ),
         arrayOf(
             "Avvalla Maulidha Rachma",
-            "Lala"
+            "Lala", drawable.photo6
+
         ),
         arrayOf(
             "Benedictus Sandy Pradipta",
-            "Sandy"
+            "Sandy",
+            drawable.photo7
         ),
         arrayOf(
             "Cantika Diaz Aztiza Putri",
-            "Cantika"
+            "Cantika",
+            drawable.photo8
         ),
         arrayOf(
             "Dahra Cantika Andiani",
-            "Dahra"
-
+            "Dahra",
+            drawable.photo9
         ),
         arrayOf(
             "Delfy Carissa",
-            "Delfy"
-
-        ),
-        arrayOf(
-            "Dimas Rakawibowo",
-            "Dimas"
-
+            "Delfy",
+            drawable.photo10
         )
     )
 
@@ -58,6 +64,7 @@ object FriendData {
                 val friend = Friend()
                 friend.name = a[0]
                 friend.panggilan = a[1]
+                friend.photo = a[2]
                 list.add(friend)
             }
         return list

@@ -31,13 +31,10 @@ class ListFriendAdapter(private val listFriend:ArrayList<Friend>): RecyclerView.
 
     @SuppressLint("ResourceType")
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        var (name,panggilan,photo) = listFriend[position]
-        holder.tvName.text = name
-        holder.tvNamePanggilan.text = panggilan
-        if (photo != null) {
-            holder.tvImg.setImageResource(R.array.foto_profil) = photo
-        }
-
+        val (name,panggilan,photo) = listFriend[position]
+        holder.tvName.text = name.toString()
+        holder.tvNamePanggilan.text = panggilan.toString()
+        holder.tvImg.setImageResource(photo.toString().toInt())
     }
 
     inner class ListViewHolder(itemView:View): RecyclerView.ViewHolder(itemView) {
