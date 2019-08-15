@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MySubmission</string>
+    <string name="name_profile">Muhammad Waffa Aidillah</string>
+    <string name="email_profile">wafaaidillah21@gmail.com</string>
+    <string name="friend_name">Nama Teman</string>
+    <string name="from">Asal</string>
+    <string name="nama_panggilan">nama panggilan</string>
+</resources>
