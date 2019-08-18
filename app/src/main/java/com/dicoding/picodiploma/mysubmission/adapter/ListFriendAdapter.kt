@@ -1,22 +1,16 @@
 package com.dicoding.picodiploma.mysubmission.adapter
 
 import android.annotation.SuppressLint
-import android.app.PendingIntent
-import android.content.Context
-import android.content.res.TypedArray
-import android.graphics.drawable.Drawable
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.Resource
-import com.bumptech.glide.request.RequestOptions
 import com.dicoding.picodiploma.mysubmission.Friend.Friend
 import com.dicoding.picodiploma.mysubmission.R
-import kotlin.math.log
+
 
 class ListFriendAdapter(private val listFriend:ArrayList<Friend>): RecyclerView.Adapter<ListFriendAdapter.ListViewHolder>() {
 

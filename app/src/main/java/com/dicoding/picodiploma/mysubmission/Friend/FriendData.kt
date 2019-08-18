@@ -7,7 +7,7 @@ object FriendData {
         arrayOf(
             "Adi Rahmat Fatchi",
             "Adi",
-            drawable.photo1
+            drawable.photo1baru
         ),
         arrayOf(
             "Ajeng Santika Putri",
@@ -28,7 +28,7 @@ object FriendData {
         arrayOf(
             "Ardian Reza Maliki",
             "Ecak",
-            drawable.photo5
+            drawable.photo5baru
         ),
         arrayOf(
             "Avvalla Maulidha Rachma",
@@ -43,7 +43,7 @@ object FriendData {
         arrayOf(
             "Cantika Diaz Aztiza Putri",
             "Cantika",
-            drawable.photo8
+            drawable.pas_poto
         ),
         arrayOf(
             "Dahra Cantika Andiani",
