@@ -57,7 +57,7 @@ object FriendData {
         arrayOf(
             "Cantika Diaz Aztiza Putri",
             "Cantika",
-            drawable.pas_poto,
+            drawable.photo8,
             "Gowa, 13 Agustus 1999",
             "Jl. Ikan terbang no. 130"
         ),
